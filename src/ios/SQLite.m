@@ -267,7 +267,7 @@ RCT_EXPORT_METHOD(open: (NSDictionary *) options success:(RCTResponseSenderBlock
     NSString *compressedSuffix = @".zip";
     BOOL isCompressed = [prepopulatedDb hasSuffix:compressedSuffix];
     RCTLog(@"Is prepopulated DB compressed: %s", isCompressed ? "true" : "false");
-    if (isCompressed){
+    if (isCompressed) {
       RCTLog(@"Automatically decompressing prepopulated DB");
       NSString *dir = [dbname stringByDeletingLastPathComponent];
       success = [SSZipArchive unzipFileAtPath:prepopulatedDb toDestination:dir overwrite:NO password:nil error:&error];
@@ -275,8 +275,10 @@ RCT_EXPORT_METHOD(open: (NSDictionary *) options success:(RCTResponseSenderBlock
         NSString *inputFilename = [prepopulatedDb lastPathComponent];
         NSString *outputFilename = [inputFilename substringToIndex:[inputFilename length] - [compressedSuffix length]];
         NSString *outputFilePath = [[dir stringByAppendingString:@"/"] stringByAppendingString:outputFilename];
-        RCTLog(@"Moving decompressed file %@ -> %@", outputFilePath, dbname);
-        success = [[NSFileManager defaultManager] moveItemAtPath:outputFilePath toPath:dbname error:&error];
+        if (![outputFilePath isEqualToString:dbname]) {
+          RCTLog(@"Moving decompressed file %@ -> %@", outputFilePath, dbname);
+          success = [[NSFileManager defaultManager] moveItemAtPath:outputFilePath toPath:dbname error:&error];
+        }
       }
     } else {
       success = [[NSFileManager defaultManager] copyItemAtPath:prepopulatedDb toPath:dbname error:&error];
