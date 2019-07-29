@@ -17,6 +17,7 @@
 
 #import "SQLite.h"
 #import "SQLiteResult.h"
+#import "SSZipArchive.h"
 
 #import <React/RCTLog.h>
 #import <React/RCTUtils.h>
@@ -260,8 +261,26 @@ RCT_EXPORT_METHOD(open: (NSDictionary *) options success:(RCTResponseSenderBlock
   
   if ([[NSFileManager defaultManager] fileExistsAtPath:prepopulatedDb]) {
     RCTLog(@"Found prepopulated DB: %@", prepopulatedDb);
+    
+    BOOL success;
     NSError *error;
-    BOOL success = [[NSFileManager defaultManager] copyItemAtPath:prepopulatedDb toPath:dbname error:&error];
+    NSString *compressedSuffix = @".zip";
+    BOOL isCompressed = [prepopulatedDb hasSuffix:compressedSuffix];
+    RCTLog(@"Is prepopulated DB compressed: %s", isCompressed ? "true" : "false");
+    if (isCompressed){
+      RCTLog(@"Automatically decompressing prepopulated DB");
+      NSString *dir = [dbname stringByDeletingLastPathComponent];
+      success = [SSZipArchive unzipFileAtPath:prepopulatedDb toDestination:dir overwrite:NO password:nil error:&error];
+      if (success) {
+        NSString *inputFilename = [prepopulatedDb lastPathComponent];
+        NSString *outputFilename = [inputFilename substringToIndex:[inputFilename length] - [compressedSuffix length]];
+        NSString *outputFilePath = [[dir stringByAppendingString:@"/"] stringByAppendingString:outputFilename];
+        RCTLog(@"Moving decompressed file %@ -> %@", outputFilePath, dbname);
+        success = [[NSFileManager defaultManager] moveItemAtPath:outputFilePath toPath:dbname error:&error];
+      }
+    } else {
+      success = [[NSFileManager defaultManager] copyItemAtPath:prepopulatedDb toPath:dbname error:&error];
+    }
     
     if(success) {
       RCTLog(@"Copied prepopulated DB content to: %@", dbname);

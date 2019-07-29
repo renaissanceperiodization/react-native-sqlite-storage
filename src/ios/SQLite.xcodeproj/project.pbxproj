@@ -10,6 +10,41 @@
 		C7DCD6E41BE0295900F3300E /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DCD6E21BE0295900F3300E /* SQLite.h */; };
 		C7DCD6E51BE0295A00F3300E /* SQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DCD6E31BE0295900F3300E /* SQLite.m */; };
 		C7DCD7141BE2D5DE00F3300E /* SQLiteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DCD7131BE2D5DE00F3300E /* SQLiteResult.m */; };
+		DFB5E99622EF003800AD1E55 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB5E99522EF003800AD1E55 /* Security.framework */; };
+		DFB5EB3F22EF096F00AD1E55 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E96C22EEFFEC00AD1E55 /* SSZipArchive.m */; };
+		DFB5EB4022EF097900AD1E55 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E96E22EEFFEC00AD1E55 /* mz_strm_os_posix.c */; };
+		DFB5EB4122EF097900AD1E55 /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E96F22EEFFEC00AD1E55 /* mz_strm_pkcrypt.c */; };
+		DFB5EB4222EF097900AD1E55 /* mz_strm_wzaes.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97022EEFFEC00AD1E55 /* mz_strm_wzaes.h */; };
+		DFB5EB4322EF097900AD1E55 /* mz_compat.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97122EEFFEC00AD1E55 /* mz_compat.h */; };
+		DFB5EB4422EF097900AD1E55 /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97222EEFFEC00AD1E55 /* mz_strm_zlib.c */; };
+		DFB5EB4522EF097900AD1E55 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97322EEFFEC00AD1E55 /* mz_zip.c */; };
+		DFB5EB4622EF097900AD1E55 /* mz_os.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97422EEFFEC00AD1E55 /* mz_os.h */; };
+		DFB5EB4722EF097900AD1E55 /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97522EEFFEC00AD1E55 /* mz_zip_rw.c */; };
+		DFB5EB4822EF097900AD1E55 /* mz_strm_split.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97622EEFFEC00AD1E55 /* mz_strm_split.h */; };
+		DFB5EB4922EF097900AD1E55 /* mz_strm_buf.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97722EEFFEC00AD1E55 /* mz_strm_buf.h */; };
+		DFB5EB4A22EF097900AD1E55 /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97822EEFFEC00AD1E55 /* mz_crypt_apple.c */; };
+		DFB5EB4B22EF097900AD1E55 /* mz_strm.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97922EEFFEC00AD1E55 /* mz_strm.h */; };
+		DFB5EB4C22EF097900AD1E55 /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97A22EEFFEC00AD1E55 /* mz_strm_mem.c */; };
+		DFB5EB4D22EF097900AD1E55 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97B22EEFFEC00AD1E55 /* LICENSE */; };
+		DFB5EB4E22EF097900AD1E55 /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97C22EEFFEC00AD1E55 /* mz_crypt.c */; };
+		DFB5EB4F22EF097900AD1E55 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97D22EEFFEC00AD1E55 /* mz_strm_wzaes.c */; };
+		DFB5EB5022EF097900AD1E55 /* mz_strm_zlib.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97E22EEFFEC00AD1E55 /* mz_strm_zlib.h */; };
+		DFB5EB5122EF097900AD1E55 /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E97F22EEFFEC00AD1E55 /* mz_compat.c */; };
+		DFB5EB5222EF097900AD1E55 /* mz_strm_pkcrypt.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98022EEFFEC00AD1E55 /* mz_strm_pkcrypt.h */; };
+		DFB5EB5322EF097900AD1E55 /* mz_zip_rw.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98122EEFFEC00AD1E55 /* mz_zip_rw.h */; };
+		DFB5EB5422EF097900AD1E55 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98222EEFFEC00AD1E55 /* mz_os.c */; };
+		DFB5EB5522EF097900AD1E55 /* mz_zip.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98322EEFFEC00AD1E55 /* mz_zip.h */; };
+		DFB5EB5622EF097900AD1E55 /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98422EEFFEC00AD1E55 /* mz_os_posix.c */; };
+		DFB5EB5722EF097900AD1E55 /* mz.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98522EEFFEC00AD1E55 /* mz.h */; };
+		DFB5EB5822EF097900AD1E55 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98622EEFFEC00AD1E55 /* mz_strm_buf.c */; };
+		DFB5EB5922EF097900AD1E55 /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98722EEFFEC00AD1E55 /* mz_strm_split.c */; };
+		DFB5EB5A22EF097900AD1E55 /* mz_crypt.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98822EEFFEC00AD1E55 /* mz_crypt.h */; };
+		DFB5EB5B22EF097900AD1E55 /* mz_strm_mem.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98922EEFFEC00AD1E55 /* mz_strm_mem.h */; };
+		DFB5EB5C22EF097900AD1E55 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98A22EEFFEC00AD1E55 /* mz_strm.c */; };
+		DFB5EB5D22EF097900AD1E55 /* mz_strm_os.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98B22EEFFEC00AD1E55 /* mz_strm_os.h */; };
+		DFB5EB5E22EF097900AD1E55 /* ZipArchive.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98C22EEFFEC00AD1E55 /* ZipArchive.h */; };
+		DFB5EB5F22EF097900AD1E55 /* SSZipArchive.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98E22EEFFEC00AD1E55 /* SSZipArchive.h */; };
+		DFB5EB6022EF097900AD1E55 /* SSZipCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = DFB5E98F22EEFFEC00AD1E55 /* SSZipCommon.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +64,41 @@
 		C7DCD6E31BE0295900F3300E /* SQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLite.m; sourceTree = "<group>"; };
 		C7DCD7131BE2D5DE00F3300E /* SQLiteResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteResult.m; sourceTree = "<group>"; };
 		C7DCD7151BE2D61E00F3300E /* SQLiteResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLiteResult.h; sourceTree = "<group>"; };
+		DFB5E96C22EEFFEC00AD1E55 /* SSZipArchive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		DFB5E96E22EEFFEC00AD1E55 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_os_posix.c; sourceTree = "<group>"; };
+		DFB5E96F22EEFFEC00AD1E55 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		DFB5E97022EEFFEC00AD1E55 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_wzaes.h; sourceTree = "<group>"; };
+		DFB5E97122EEFFEC00AD1E55 /* mz_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_compat.h; sourceTree = "<group>"; };
+		DFB5E97222EEFFEC00AD1E55 /* mz_strm_zlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_zlib.c; sourceTree = "<group>"; };
+		DFB5E97322EEFFEC00AD1E55 /* mz_zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_zip.c; sourceTree = "<group>"; };
+		DFB5E97422EEFFEC00AD1E55 /* mz_os.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_os.h; sourceTree = "<group>"; };
+		DFB5E97522EEFFEC00AD1E55 /* mz_zip_rw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_zip_rw.c; sourceTree = "<group>"; };
+		DFB5E97622EEFFEC00AD1E55 /* mz_strm_split.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_split.h; sourceTree = "<group>"; };
+		DFB5E97722EEFFEC00AD1E55 /* mz_strm_buf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_buf.h; sourceTree = "<group>"; };
+		DFB5E97822EEFFEC00AD1E55 /* mz_crypt_apple.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_crypt_apple.c; sourceTree = "<group>"; };
+		DFB5E97922EEFFEC00AD1E55 /* mz_strm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm.h; sourceTree = "<group>"; };
+		DFB5E97A22EEFFEC00AD1E55 /* mz_strm_mem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_mem.c; sourceTree = "<group>"; };
+		DFB5E97B22EEFFEC00AD1E55 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DFB5E97C22EEFFEC00AD1E55 /* mz_crypt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_crypt.c; sourceTree = "<group>"; };
+		DFB5E97D22EEFFEC00AD1E55 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_wzaes.c; sourceTree = "<group>"; };
+		DFB5E97E22EEFFEC00AD1E55 /* mz_strm_zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_zlib.h; sourceTree = "<group>"; };
+		DFB5E97F22EEFFEC00AD1E55 /* mz_compat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_compat.c; sourceTree = "<group>"; };
+		DFB5E98022EEFFEC00AD1E55 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_pkcrypt.h; sourceTree = "<group>"; };
+		DFB5E98122EEFFEC00AD1E55 /* mz_zip_rw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_zip_rw.h; sourceTree = "<group>"; };
+		DFB5E98222EEFFEC00AD1E55 /* mz_os.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_os.c; sourceTree = "<group>"; };
+		DFB5E98322EEFFEC00AD1E55 /* mz_zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_zip.h; sourceTree = "<group>"; };
+		DFB5E98422EEFFEC00AD1E55 /* mz_os_posix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_os_posix.c; sourceTree = "<group>"; };
+		DFB5E98522EEFFEC00AD1E55 /* mz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz.h; sourceTree = "<group>"; };
+		DFB5E98622EEFFEC00AD1E55 /* mz_strm_buf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_buf.c; sourceTree = "<group>"; };
+		DFB5E98722EEFFEC00AD1E55 /* mz_strm_split.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm_split.c; sourceTree = "<group>"; };
+		DFB5E98822EEFFEC00AD1E55 /* mz_crypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_crypt.h; sourceTree = "<group>"; };
+		DFB5E98922EEFFEC00AD1E55 /* mz_strm_mem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_mem.h; sourceTree = "<group>"; };
+		DFB5E98A22EEFFEC00AD1E55 /* mz_strm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mz_strm.c; sourceTree = "<group>"; };
+		DFB5E98B22EEFFEC00AD1E55 /* mz_strm_os.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mz_strm_os.h; sourceTree = "<group>"; };
+		DFB5E98C22EEFFEC00AD1E55 /* ZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		DFB5E98E22EEFFEC00AD1E55 /* SSZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		DFB5E98F22EEFFEC00AD1E55 /* SSZipCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+		DFB5E99522EF003800AD1E55 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		E23D7B471ACEFE2A00C59171 /* libSQLite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSQLite.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB5E99622EF003800AD1E55 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,11 +125,70 @@
 			name = SQLite;
 			sourceTree = "<group>";
 		};
+		DFB5E96B22EEFFEC00AD1E55 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				DFB5E96C22EEFFEC00AD1E55 /* SSZipArchive.m */,
+				DFB5E96D22EEFFEC00AD1E55 /* minizip */,
+				DFB5E98C22EEFFEC00AD1E55 /* ZipArchive.h */,
+				DFB5E98E22EEFFEC00AD1E55 /* SSZipArchive.h */,
+				DFB5E98F22EEFFEC00AD1E55 /* SSZipCommon.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		DFB5E96D22EEFFEC00AD1E55 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				DFB5E96E22EEFFEC00AD1E55 /* mz_strm_os_posix.c */,
+				DFB5E96F22EEFFEC00AD1E55 /* mz_strm_pkcrypt.c */,
+				DFB5E97022EEFFEC00AD1E55 /* mz_strm_wzaes.h */,
+				DFB5E97122EEFFEC00AD1E55 /* mz_compat.h */,
+				DFB5E97222EEFFEC00AD1E55 /* mz_strm_zlib.c */,
+				DFB5E97322EEFFEC00AD1E55 /* mz_zip.c */,
+				DFB5E97422EEFFEC00AD1E55 /* mz_os.h */,
+				DFB5E97522EEFFEC00AD1E55 /* mz_zip_rw.c */,
+				DFB5E97622EEFFEC00AD1E55 /* mz_strm_split.h */,
+				DFB5E97722EEFFEC00AD1E55 /* mz_strm_buf.h */,
+				DFB5E97822EEFFEC00AD1E55 /* mz_crypt_apple.c */,
+				DFB5E97922EEFFEC00AD1E55 /* mz_strm.h */,
+				DFB5E97A22EEFFEC00AD1E55 /* mz_strm_mem.c */,
+				DFB5E97B22EEFFEC00AD1E55 /* LICENSE */,
+				DFB5E97C22EEFFEC00AD1E55 /* mz_crypt.c */,
+				DFB5E97D22EEFFEC00AD1E55 /* mz_strm_wzaes.c */,
+				DFB5E97E22EEFFEC00AD1E55 /* mz_strm_zlib.h */,
+				DFB5E97F22EEFFEC00AD1E55 /* mz_compat.c */,
+				DFB5E98022EEFFEC00AD1E55 /* mz_strm_pkcrypt.h */,
+				DFB5E98122EEFFEC00AD1E55 /* mz_zip_rw.h */,
+				DFB5E98222EEFFEC00AD1E55 /* mz_os.c */,
+				DFB5E98322EEFFEC00AD1E55 /* mz_zip.h */,
+				DFB5E98422EEFFEC00AD1E55 /* mz_os_posix.c */,
+				DFB5E98522EEFFEC00AD1E55 /* mz.h */,
+				DFB5E98622EEFFEC00AD1E55 /* mz_strm_buf.c */,
+				DFB5E98722EEFFEC00AD1E55 /* mz_strm_split.c */,
+				DFB5E98822EEFFEC00AD1E55 /* mz_crypt.h */,
+				DFB5E98922EEFFEC00AD1E55 /* mz_strm_mem.h */,
+				DFB5E98A22EEFFEC00AD1E55 /* mz_strm.c */,
+				DFB5E98B22EEFFEC00AD1E55 /* mz_strm_os.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		DFB5E99022EF001900AD1E55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB5E99522EF003800AD1E55 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E23D7B3E1ACEFE2A00C59171 = {
 			isa = PBXGroup;
 			children = (
 				C7DCD6E11BE0293D00F3300E /* SQLite */,
 				E23D7B481ACEFE2A00C59171 /* Products */,
+				DFB5E96B22EEFFEC00AD1E55 /* SSZipArchive */,
+				DFB5E99022EF001900AD1E55 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,7 +253,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = E23D7B3E1ACEFE2A00C59171;
 			productRefGroup = E23D7B481ACEFE2A00C59171 /* Products */;
@@ -140,6 +272,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB5EB4022EF097900AD1E55 /* mz_strm_os_posix.c in Sources */,
+				DFB5EB4122EF097900AD1E55 /* mz_strm_pkcrypt.c in Sources */,
+				DFB5EB4222EF097900AD1E55 /* mz_strm_wzaes.h in Sources */,
+				DFB5EB4322EF097900AD1E55 /* mz_compat.h in Sources */,
+				DFB5EB4422EF097900AD1E55 /* mz_strm_zlib.c in Sources */,
+				DFB5EB4522EF097900AD1E55 /* mz_zip.c in Sources */,
+				DFB5EB4622EF097900AD1E55 /* mz_os.h in Sources */,
+				DFB5EB4722EF097900AD1E55 /* mz_zip_rw.c in Sources */,
+				DFB5EB4822EF097900AD1E55 /* mz_strm_split.h in Sources */,
+				DFB5EB4922EF097900AD1E55 /* mz_strm_buf.h in Sources */,
+				DFB5EB4A22EF097900AD1E55 /* mz_crypt_apple.c in Sources */,
+				DFB5EB4B22EF097900AD1E55 /* mz_strm.h in Sources */,
+				DFB5EB4C22EF097900AD1E55 /* mz_strm_mem.c in Sources */,
+				DFB5EB4D22EF097900AD1E55 /* LICENSE in Sources */,
+				DFB5EB4E22EF097900AD1E55 /* mz_crypt.c in Sources */,
+				DFB5EB4F22EF097900AD1E55 /* mz_strm_wzaes.c in Sources */,
+				DFB5EB5022EF097900AD1E55 /* mz_strm_zlib.h in Sources */,
+				DFB5EB5122EF097900AD1E55 /* mz_compat.c in Sources */,
+				DFB5EB5222EF097900AD1E55 /* mz_strm_pkcrypt.h in Sources */,
+				DFB5EB5322EF097900AD1E55 /* mz_zip_rw.h in Sources */,
+				DFB5EB5422EF097900AD1E55 /* mz_os.c in Sources */,
+				DFB5EB5522EF097900AD1E55 /* mz_zip.h in Sources */,
+				DFB5EB5622EF097900AD1E55 /* mz_os_posix.c in Sources */,
+				DFB5EB5722EF097900AD1E55 /* mz.h in Sources */,
+				DFB5EB5822EF097900AD1E55 /* mz_strm_buf.c in Sources */,
+				DFB5EB5922EF097900AD1E55 /* mz_strm_split.c in Sources */,
+				DFB5EB5A22EF097900AD1E55 /* mz_crypt.h in Sources */,
+				DFB5EB5B22EF097900AD1E55 /* mz_strm_mem.h in Sources */,
+				DFB5EB5C22EF097900AD1E55 /* mz_strm.c in Sources */,
+				DFB5EB5D22EF097900AD1E55 /* mz_strm_os.h in Sources */,
+				DFB5EB5E22EF097900AD1E55 /* ZipArchive.h in Sources */,
+				DFB5EB5F22EF097900AD1E55 /* SSZipArchive.h in Sources */,
+				DFB5EB6022EF097900AD1E55 /* SSZipCommon.h in Sources */,
+				DFB5EB3F22EF096F00AD1E55 /* SSZipArchive.m in Sources */,
 				C7DCD7141BE2D5DE00F3300E /* SQLiteResult.m in Sources */,
 				C7DCD6E51BE0295A00F3300E /* SQLite.m in Sources */,
 			);
@@ -182,6 +348,12 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
+					HAVE_INTTYPES_H,
+					HAVE_PKCRYPT,
+					HAVE_STDINT_H,
+					HAVE_WZAES,
+					HAVE_ZLIB,
+					MZ_ZIP_NO_SIGNING,
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -195,6 +367,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -228,6 +401,15 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_INTTYPES_H,
+					HAVE_PKCRYPT,
+					HAVE_STDINT_H,
+					HAVE_WZAES,
+					HAVE_ZLIB,
+					MZ_ZIP_NO_SIGNING,
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -237,6 +419,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -244,7 +427,7 @@
 		E23D7B5C1ACEFE2A00C59171 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -261,7 +444,7 @@
 		E23D7B5D1ACEFE2A00C59171 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
