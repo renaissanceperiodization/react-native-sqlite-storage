@@ -1,3 +1,9 @@
+allprojects {
+	repositories {
+	  maven { url "https://jitpack.io" }
+	}
+}
+
 buildscript {
     repositories {
         google()
@@ -36,5 +42,5 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'io.requery:sqlite-android:3.27.1'
+    implementation 'com.github.aisaacs:sqlite-android-fts5:b42721f6ec'
 }
